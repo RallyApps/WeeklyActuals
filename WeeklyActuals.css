@@ -1,0 +1,128 @@
+body {
+    font-family: tahoma, geneva, helvetica, arial, sans-serif;
+    font-size: 11px;
+    margin: 10px;
+    text-align: left;
+    background: white;
+}
+
+.data-table th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #dddddd;
+    border-top: 2px solid #dddddd;
+}
+
+.data-table td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #dddddd;
+    vertical-align: middle;
+}
+
+.data-table .link {
+    color: #366ab7;
+}
+
+.data-table .highlite-good {
+    background-color: #ddffdd;
+}
+
+.data-table .center {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.data-table .left {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.data-table .right {
+    text-align: right;
+    padding-left: 20px;
+}
+
+.title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+#user-table-div {
+    padding: 0.3em;
+    padding-top: 4em;
+}
+
+#task-table-div {
+    padding: 0.3em;
+    padding-top: 2em;
+}
+
+.lbl {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.state-table td {
+    border-bottom: none;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.state-table td div {
+    background: white;
+    border: 1px solid rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
+    height: 14px;
+    width: 14px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.state-table td.selected div {
+    background: rgb(0, 102, 0);
+    color: white;
+    border: 1px solid rgb(221, 221, 221);
+    height: 14px;
+    width: 14px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.state-table td.blocked div {
+    background: url(https://trial.rallydev.com/slm/images/icon_blocked.gif);
+    color: white;
+    border: 0px;
+    height: 16px;
+    width: 16px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.state-table td.none div {
+    background: white;
+    color: white;
+    border: 0px;
+    height: 16px;
+    width: 16px;
+    line-height: 15px;
+    text-align: center;
+}
+
+#timePeriodSelect {
+    display: inline-block;
+    float: left;
+}
+
+#waiter {
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 20px;
+}
